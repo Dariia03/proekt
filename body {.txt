@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+#website {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.baner {
+    background-color: red;
+}
