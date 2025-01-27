@@ -9,36 +9,38 @@ body {
 }
 
 #header {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 10px;
+    border-bottom: 1px solid white;
 }
 
-.logo {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
+.logo img {
+    width: 240px;
 }
 
 
-.menu {
-    text-align: right;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.menu li {
-    display: inline-block;
-    padding: 5px;
+.banner {
+width: 100%;
+height: 500px;
+background-image: url("c:\Users\PIN\Desktop\WEB2\img\Snimek_obrazovky_2025-01-27_142144.png");
+background-size: cover;
+background-position: center;
 }
 
-.menu li a {
-    color: white;
-    text-decoration: none;
+.banner-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
 }
 
-.baner {
-    background-color: red;
-}
