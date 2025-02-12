@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #website {
-    max-width: 1200px;
+    max-width: 1450px;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ header {
 }
 
 .logo img {
-    max-width: 240px;
+    max-width: 100px;
 }
 
 nav ul {
@@ -58,7 +58,7 @@ nav ul li a {
     mask-size: 100% 100%;
     background-color: currentColor;
     color: inherit;
-    width: 1.5em;
+    width: 1.2em;
     height: 1.2em;
     display: inline-block;
     cursor: pointer;;
