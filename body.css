@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: #5c5fe4;
-    --bg-color: white;
-    --text-color: #000;
+    --primary-color: grey;
+    --bg-color: black;
+    --text-color: white;
 }
 
 body {
@@ -71,7 +71,7 @@ nav ul li a {
 .baner {
     width: 100%;
     height: 500px;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url('img/Flux_Dev_updatedpromptCreate_an_atmospheric_photograph_of_a_vi_1.jpeg');
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255)), url('img/Flux_Dev_updatedpromptCreate_an_atmospheric_photograph_of_a_vi_1.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -141,16 +141,15 @@ nav ul li a {
     background-color: var(--primary-color);
     color: white;
 }
-
 .btn {
     background-color: var(--bg-color);
-	color: var(--primary-color);
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: bold;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .cta {
